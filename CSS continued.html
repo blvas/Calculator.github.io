@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+
+        h1 {color:orange;}
+        h1.title {color:pink;}
+        p {color:red;}
+        .mobil {color:blue;}
+        #mobilhijau {color:greenyellow;}
+        .divWithBoxSizing {
+            background-color: brown;
+            border: 10px solid red;
+            width:  200px;
+            padding-left: 100px;
+            box-sizing: border-box;
+        }
+        .divWithoutBoxSizing{
+            background-color: yellow;
+            border: 20px solid blue;
+            width:  200px;
+            padding-left: 50px;
+            box-sizing: border-box;
+        }
+
+        .flexbox {
+            display: flex;
+            background-color: cornsilk;
+            flex-direction: row-reverse;
+        }
+
+        </style>
+
+    </head>
+    <title>CSS pratice</title>
+</head>
+<body>
+    <div class="flexbox">
+        <h1>ayla</h1>
+        <p>inova</p>
+        <h1>suzuki</h1>
+        <p>mazda</p>
+        <h1>bmw</h1>
+        <p>ferrari</p>
+    </div>
+    <div>
+        <h1 class="title">avanza</h1>
+        <h1>ayla</h1>
+        <p>inova</p>
+        </div>
+
+        <div class="divWithBoxSizing">
+        <h1 class="mobil" id="fortuner">fortuner</h1>
+        </div>
+       <div class="divWithoutBoxSizing">
+        <h1 class="mobil" id="mobilhijau">toyota</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
